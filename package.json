@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "keywords": [
+    "textlintrule"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "textlint-scripts test",
+    "build": "textlint-scripts build",
+    "prepublish": "npm run --if-present build"
+  },
+  "devDependencies": {
+    "textlint-scripts": "^1.2.2"
+  },
+  "name": "textlint-rule-no-renyo-tyushi",
+  "directories": {
+    "test": "test"
+  },
+  "author": "kongou-ae",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "kuromojin": "^1.3.2",
+    "sentence-splitter": "^2.2.0"
+  }
+}
