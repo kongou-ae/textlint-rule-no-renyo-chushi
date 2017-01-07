@@ -55,7 +55,7 @@ module.exports = function(context, options = {}) {
                                 if ( result === true ){
                                     const regex = new RegExp(tokens[j].surface_form + tokens[j+1].surface_form, 'g');
                                     const indexOfError = regex.exec(text);
-                                    const ruleError = new RuleError("連用中止形が使われています。", {
+                                    const ruleError = new RuleError("連用中止形が使われています。: " + tokens[j].surface_form + tokens[j+1].surface_form, {
                                         index: indexOfError.index// padding of index
                                     });
                                     report(node, ruleError);
