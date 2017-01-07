@@ -16,7 +16,7 @@
   "devDependencies": {
     "textlint-scripts": "^1.2.2"
   },
-  "name": "textlint-rule-no-renyo-tyushi",
+  "name": "textlint-rule-no-renyo-chushi",
   "directories": {
     "test": "test"
   },
