@@ -1,4 +1,4 @@
-# textlint-rule-no-renyo-tyushi
+# textlint-rule-no-renyo-chushi
 
 
 
@@ -6,7 +6,7 @@
 
 Install with [npm](https://www.npmjs.com/):
 
-    npm install textlint-rule-no-renyo-tyushi
+    npm install textlint-rule-no-renyo-chushi
 
 ## Usage
 
@@ -15,7 +15,7 @@ Via `.textlintrc`(Recommended)
 ```json
 {
     "rules": {
-        "no-renyo-tyushi": true
+        "no-renyo-chushi": true
     }
 }
 ```
@@ -23,7 +23,7 @@ Via `.textlintrc`(Recommended)
 Via CLI
 
 ```
-textlint --rule no-renyo-tyushi README.md
+textlint --rule no-renyo-chushi README.md
 ```
 
 ### Build
